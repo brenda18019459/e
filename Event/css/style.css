@@ -1,0 +1,237 @@
+{
+  margin: 0 0;
+  padding: 0 0;
+  font-family: sans-serif;
+}
+
+.purple{
+background-color: #a29bfe;
+}
+
+.signup-form-form {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-form p {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #007ecc;
+}
+.signup-form{
+  background-color: #130f40;
+}
+
+.signup-form form {
+  width: 30%;
+}
+
+.signup-form form input {
+  width: calc(100% - 16px);
+  padding: 6px;
+  margin-bottom: 4px;
+}
+
+.signup-form form button {
+  display: block;
+  padding: 10px 20px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 1%;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #2d3436;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-pimary:hover {
+  background-color: #6c5ce7;
+}
+
+.event-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+  background-color: #a29bfe;
+}
+
+.float-container{
+  position: relative;
+}
+
+.float-text{
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+}
+
+.img-curv{
+  border-radius: 10px;
+}
+
+.text-white{
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.shrink{
+  width 20%;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+
+
+.menu ul li a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0 16px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  background: black;
+}
+
+a {
+  color: #6c5ce7;
+  text-decoration: none;
+}
+
+
+.social ul {
+list-style-type: none;
+}
+
+.social ul li {
+  display: inline;
+  padding: 1%
+}
+a:hover {
+  color: #a29bfe;
+}
+.logo {
+  width: 5%;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+h5{
+  color: white;
+  font-size: 3rem;
+}
+
+.event-search {
+  background-image: url(../images/events.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 6% 0;
+
+}
+
+.events-menu-img{
+  width:20%;
+  float: left;
+}
+
+.events-cat-img{
+  width:20%;
+}
+
+.events-menu{
+  background-color: #130f40;
+  padding: 4% 0;
+}
+.events-menu-box{
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.events-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.event-datetime{
+    font-size: 1rem;
+    color: #747d8c;
+}

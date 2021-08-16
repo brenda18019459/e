@@ -1,0 +1,131 @@
+{
+  margin: 0 0;
+  padding: 0 0;
+  font-family: sans-serif;
+}
+
+.wrapper{
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-centre{
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li{
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+
+.menu{
+  text-align: center;
+  background-color: black;
+  border-bottom: 1px solid grey;
+}
+
+.menu ul li a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0 16px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #6c5ce7;
+}
+
+.menu ul li a:hover{
+  color: #a29bfe;
+}
+
+a:hover {
+  color: #686de0;
+  }
+
+  .main-content{
+    padding: : 5% 0;
+    background-color: #dff9fb;
+  }
+
+  .col-4{
+    width: 18%;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    float:left;
+  }
+
+  .clearfix{
+    float: none;
+    clear: both;
+  }
+
+  .footer{
+  background-color: #130f40;
+}
+
+.white-text{
+  color: white;
+}
+
+.tbl-full{
+  width: 100%;
+}
+
+.table tr th{
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+
+.btn-primary{
+  background-color: #130f40;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-primary:hover{
+  color: #686de0;
+}
+
+.btn-secondary{
+  background-color: #4834d4;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-secondary:hover{
+  color: #686de0;
+}
+
+.btn-danger{
+  background-color: #30336b;
+  padding: 1%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-danger:hover{
+  color: #686de0;
+}
+
+.btn{
+  float: center;
+}
+
+.signup-form-form {
+  display: flex;
+  vertical-align:middle;
+}
